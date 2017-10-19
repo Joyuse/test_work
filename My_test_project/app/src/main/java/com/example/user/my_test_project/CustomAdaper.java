@@ -50,9 +50,12 @@ public class CustomAdaper extends ArrayAdapter<String> {
       }
 
       ViewWe viewWe = new ViewWe();
-
         viewWe.text_view = (TextView) contentView.findViewById(R.id.short_text);
         viewWe.bats_view = (ImageView) contentView.findViewById(R.id.image_int);
+
+        Glide.with(context)
+                .load("https://pp.userapi.com/c840334/v840334425/16bc1/vPLMogBbbcA.jpg")
+                .into(viewWe.bats_view); 
 
         viewWe.text_view.setText(text[position]);
         viewWe.bats_view.setImageResource(bats[position]);
