@@ -19,12 +19,27 @@
         android:id="@+id/short_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/edit_text"
+        android:layout_alignBottom="@+id/edit_text"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/add_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/image_int"
-        android:layout_marginBottom="14dp"
-        android:layout_marginLeft="73dp"
-        android:layout_marginStart="73dp"
-        android:layout_toEndOf="@+id/image_int"
-        android:layout_toRightOf="@+id/image_int"
-        android:text="TextView" />
+        android:layout_alignLeft="@+id/add_favorite"
+        android:layout_alignStart="@+id/add_favorite"
+        android:text="Edit" />
 
 </RelativeLayout>
