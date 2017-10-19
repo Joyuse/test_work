@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My_test_project</string>
+
+    <string-array name="minitext">
+        1,2,3
+    </string-array>
+
+</resources>
