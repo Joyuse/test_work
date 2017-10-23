@@ -63,7 +63,7 @@ public class CustomAdaper extends ArrayAdapter<String> {
         Glide.with(context)
                 .load(bats[position])
                 .into(viewWe.bats_view);
-       // viewWe.text_view.setText(text[position]);
+
         viewWe.editButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
