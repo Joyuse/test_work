@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{8A89C2CD-1745-40BE-911C-104739E4E53D}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="GidForYou\MainActivity.cs" Line="126" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.GidForYou AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.c1ceb3cd" />
+</Properties>
